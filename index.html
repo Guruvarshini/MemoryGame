@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1>🧠Memory game🧠</h1>
+  <h2 id="level-title">👾Press Start!👾</h2>
+  <h3 id="instructions">Instructions</h3>
+  <div class="hidden">
+    <h4>
+      Welcome to Pattern Memory Challenge!
+      <ul>
+        <li>
+Objective:
+Your goal is to test and improve your memory skills by replicating a sequence of buttons. Can you keep up as the patterns get more complex?
+</li>
+<li>
+How to Play:
+<ol>
+<li>Start:
+Click or tap the "Start" button to begin the game.
+</li>
+<li>
+Remember the Pattern:
+
+Watch and listen carefully as a sequence of buttons lights up and plays a sound.
+Each button represents a specific color or shape.
+</li>
+<li>
+Replicate the Pattern:
+
+After the sequence ends, it's your turn! Click or tap the buttons in the same order you saw them.
+Pay attention to the number of buttons and their colors.
+</li>
+<li>
+Level Up:
+
+Successfully replicate the pattern to advance to the next level.
+Each level introduces a new challenge with longer or more intricate sequences.
+</li>
+<li>
+Scoring:
+
+Your score increases with each correctly replicated pattern.
+Challenge yourself to beat your high score!
+</li>
+<li>
+Game Over:
+
+If you make a mistake, it's game over. Don't worry; you can always try again!
+Click or tap "Restart" to begin a new game.
+</li>
+<li>
+Settings:
+
+Adjust sound settings or choose a different difficulty level in the game settings.
+</li>
+<li>
+Have Fun:
+
+Enjoy the game and challenge yourself to improve with each attempt.
+Share your high score with friends and see who has the best memory skills!
+</li>
+</ol>
+      </li>
+<li>
+Tips:
+<ol>
+<li>Take your time to observe the pattern before replicating it.</li>
+<li>Start with an easier difficulty level if you're new to the game.</li>
+<li>Practice regularly to enhance your memory and pattern recognition.</li>
+</ol>
+</li>
+</ul>
+    </h4>
+  </div>
+  <!-- This could be an element where the score will be displayed -->
+<div id="scoreDisplay" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 4em;"></div>
+<div class="high"><em>Highest Score: 0</em></div>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="1" class="btn 1">
+
+      </div>
+
+      <div type="button" id="2" class="btn 2">
+
+      </div>
+      <div type="button" id="3" class="btn 3">
+
+      </div>
+      <div type="button" id="4" class="btn 4">
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div type="button" id="5" class="btn 5">
+
+      </div>
+
+      <div type="button" id="6" class="btn 6">
+
+      </div>
+      <div type="button" id="7" class="btn 7">
+
+      </div>
+      <div type="button" id="8" class="btn 8">
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div type="button" id="9" class="btn 9">
+
+      </div>
+
+      <div type="button" id="10" class="btn 10">
+
+      </div>
+      <div type="button" id="11" class="btn 11">
+
+      </div>
+      <div type="button" id="12" class="btn 12">
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div type="button" id="13" class="btn 13">
+
+      </div>
+
+      <div type="button" id="14" class="btn 14">
+
+      </div>
+      <div type="button" id="15" class="btn 15">
+
+      </div>
+      <div type="button" id="16" class="btn 16">
+
+      </div>
+    </div>
+    
+
+  </div>
+  <div><button class="start">Start</button></div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+<footer style="color: bisque;">
+  Made with ♥ by GURU
+</footer>
+
+</html>
